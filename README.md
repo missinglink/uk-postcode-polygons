@@ -3,7 +3,7 @@ a dump of the UK postcode polygons from wikipedia in KML and GeoJSON format
 
 #### what is this?
 
-an export of the KML files linked at https://en.wikipedia.org/w/index.php?title=List_of_postcode_districts_in_the_United_Kingdom.
+an export of the KML files linked from the [List of postcode districts in the United Kingdom](https://en.wikipedia.org/w/index.php?title=List_of_postcode_districts_in_the_United_Kingdom) page.
 
 eg: https://github.com/missinglink/uk-postcode-polygons/blob/master/geojson/E.geojson
 
