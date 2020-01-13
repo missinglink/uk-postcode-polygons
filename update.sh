@@ -12,3 +12,6 @@ wget -qO- $BASEURL | sed -n 's/.*href="\/wiki\/\([A-Z]*_postcode_area\).*/\1/p' 
     wget -qO- "$URL?title=Template:Attached_KML/$area&action=raw" > "kml/${area%_*_*}.kml";
     togeojson "kml/${area%_*_*}.kml" > "geojson/${area%_*_*}.geojson";
   done;
+
+# delete 0 byte files
+find . -size  0 -print0 | xargs -0 rm --
