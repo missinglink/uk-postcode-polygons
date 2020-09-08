@@ -17,16 +17,18 @@ eg: https://github.com/missinglink/uk-postcode-polygons/blob/master/geojson/E.ge
 
 ## Dependencies
 
-Updating the GeoJSON and KML files from Wikipedia requires `togeojson` ...
+Updating the GeoJSON and KML files from Wikipedia requires `togeojson` and `geojson-rewind` ...
 
 ```
 sudo npm install -g @mapbox/togeojson
+sudo npm install -g @mapbox/geojson-rewind
 ```
 
 or ...
 
 ```
 sudo yarn global add @mapbox/togeojson
+sudo yarn global add @mapbox/geojson-rewind
 ````
 
 ## How was this produced?

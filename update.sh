@@ -17,7 +17,7 @@ wget -qO- $BASEURL | sed -n 's/.*href="\/wiki\/\([A-Z]*_postcode_area\).*/\1/p' 
       kmlfile="kml/${area%_*_*}.kml"
       wget -qO- "$URL?title=Template:Attached_KML/$area&action=raw" > "${kmlfile}"
       if [[ -s "${kmlfile}" ]]; then
-        togeojson "${kmlfile}" > "geojson/${area%_*_*}.geojson";
+        togeojson "${kmlfile}" | geojson-rewind > "geojson/${area%_*_*}.geojson";
       else
         echo "Skipping empty postcode area ${area} ...."
       fi
