@@ -39,6 +39,10 @@ see `update.sh`.
 
 For the _data_? no. this repo should be considered read-only, all edits must be made to Wikipedia directly.
 
+The index is sourced from [List_of_postcode_districts_in_the_United_Kingdom](https://en.wikipedia.org/w/index.php?title=List_of_postcode_districts_in_the_United_Kingdom) with each Area having a corresponding KML file attached.
+
+You can edit the KML directly, eg: [CV_postcode_area](https://en.wikipedia.org/w/index.php?title=Template:Attached_KML/CV_postcode_area) which can also be accessed as [raw data](https://en.wikipedia.org/w/index.php?title=Template:Attached_KML/CV_postcode_area&action=raw).
+
 For the _code_? yes, please do.
 
 ## License
